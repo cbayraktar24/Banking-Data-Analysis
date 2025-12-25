@@ -1,10 +1,13 @@
 # Credit Risk Analysis Project
 
+NBViewer link:
+https://nbviewer.org/github/cbayraktar24/Banking-Data-Analysis/blob/main/Credit_Risk_Analysis_FINAL.ipynb
+
 ## Project Overview
 This project analyzes consumer loan data to identify key drivers of default risk and build a baseline credit risk model using logistic regression.
 
 ## Dataset
-- Source: Kaggle Credit Risk Dataset
+- Source: https://www.kaggle.com/datasets/laotse/credit-risk-dataset
 - Observations: ~32,000 loans
 - Target variable: loan_status (0 = non-default, 1 = default)
 
@@ -26,5 +29,7 @@ This project analyzes consumer loan data to identify key drivers of default risk
 - Demonstrated trade-offs between precision and recall based on business risk appetite.
 
 ## How to Run
-1. Install required libraries.
-2. Run the Jupyter notebook from top to bottom.
+```bash
+pip install -r requirements.txt
+jupyter notebook
+
